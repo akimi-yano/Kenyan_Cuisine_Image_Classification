@@ -57,18 +57,6 @@ train_transform = transforms.Compose([
 
 ---
 
-### Loss and Metric Plots:
-
-[TODO: ADD IMAGE HERE]
-
----
-
-### Inferences:
-
-[TODO: ADD IMAGE HERE]
-
----
-
 ### Accuracy on Test Dataset for Kaggle Submission
 
 The configurations discussed above, yielded a score of **0.80801** on the Kaggle's Leaderboard.
