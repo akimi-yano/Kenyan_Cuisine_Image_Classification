@@ -12,7 +12,7 @@ This notebook: `Kenyan_Cuisine_Classification.ipynb` was used to train a food cl
 
 The dataset consisted of `8174` images in **13 Kenyan food type** classes. Sample images of **KenyanFood13 dataset** and the number of images in each of the classes are shown below:
 
-![](./visuals/KenyanFood13.png?raw=true)
+![](./visuals/KenyanFood13-transformed.png?raw=true)
 
 Out of these `8174` image samples, `6536` samples were provided as a training set; while the remaining `1638` comprised of the hidden test data to be used during evaluation.
 
