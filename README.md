@@ -2,11 +2,9 @@
 
 ### Project Summary:
 
-This project creates a machine learning model that classifies images for Kenyan cuisines.
+This project creates a machine learning model that classifies Kenyan cuisines' images into 13 different categories: {0: 'pilau', 1: 'nyamachoma', 2: 'masalachips', 3: 'mandazi', 4: 'ugali', 5: 'sukumawiki', 6: 'mukimo', 7: 'githeri', 8: 'matoke', 9: 'kukuchoma', 10: 'chapati', 11: 'kachumbari', 12: 'bhaji'}.
 
-The notebook: `[name of the file here]` was used to train a food classification challenge held in Kaggle conducted by OpenCV University.
-
-[Image HERE]
+This notebook: `Kenyan_Cuisine_Classification.ipynb` was used to train a food classification challenge held in Kaggle conducted by OpenCV University.
 
 ---
 
@@ -14,7 +12,7 @@ The notebook: `[name of the file here]` was used to train a food classification 
 
 The dataset consisted of `8174` images in **13 Kenyan food type** classes. Sample images of **KenyanFood13 dataset** and the number of images in each of the classes are shown below:
 
-[IMAGE HERE] 
+![](./visuals/KenyanFood13.png?raw=true)
 
 Out of these `8174` image samples, `6536` samples were provided as a training set; while the remaining `1638` comprised of the hidden test data to be used during evaluation.
 
@@ -61,7 +59,13 @@ train_transform = transforms.Compose([
 
 ### Loss and Metric Plots:
 
-[IMAGE HERE]
+[TODO: ADD IMAGE HERE]
+
+---
+
+### Inferences:
+
+[TODO: ADD IMAGE HERE]
 
 ---
 
@@ -69,8 +73,4 @@ train_transform = transforms.Compose([
 
 The configurations discussed above, yielded a score of **0.80801** on the Kaggle's Leaderboard.
 
-[IMAGE HERE]
-
-
-  
-
+![](./visuals/kenyan_cuisine_classification_kaggle_leaderboard.png?raw=true)
